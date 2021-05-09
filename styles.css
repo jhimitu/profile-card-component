@@ -1,3 +1,17 @@
+/* BASE STYLES */
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.title-text {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+span, h2 {
+    font-weight: 400;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -5,3 +19,6 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+
+/* font-family: 'Kumbh Sans', sans-serif; */
