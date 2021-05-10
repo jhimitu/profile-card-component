@@ -12,6 +12,26 @@ span, h2 {
     font-weight: 400;
 }
 
+/* CARD STYLES */
+
+.container {
+    text-align: center;
+    margin: 200px auto;
+    width: 475px;
+    height: 500px;
+    background-image: url(/images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    margin-top: 140px;
+    border-radius: 50%;
+    border: solid #fff;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
