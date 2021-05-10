@@ -10,15 +10,30 @@ body {
 
 span, h2 {
     font-weight: 400;
+    color: hsl(0, 0%, 59%);
+
 }
+
+h2 {
+    font-size: 16px;
+}
+
+span {
+    font-size: 14px;
+}
+
+.age {
+    font-size: 18px;
+}
+
 
 /* CARD STYLES */
 
 .container {
     text-align: center;
     margin: 200px auto;
-    width: 475px;
-    height: 500px;
+    width: 400px;
+    height: 425px;
     background-image: url(/images/bg-pattern-card.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -27,10 +42,21 @@ span, h2 {
 }
 
 img {
-    margin-top: 140px;
+    margin-top: 110px;
     border-radius: 50%;
     border: solid #fff;
 }
+
+/* TYPOGRAPHY */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    border-top: solid hsl(0, 0%, 59%) 0.01px;
+    margin-top: 30px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+
 
 .attribution { 
     font-size: 11px; 
