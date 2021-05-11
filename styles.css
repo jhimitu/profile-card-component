@@ -1,6 +1,7 @@
 /* BASE STYLES */
 body {
     font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
 }
 
 .title-text {
@@ -37,6 +38,7 @@ span {
     background-image: url(/images/bg-pattern-card.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -60,11 +62,9 @@ img {
 
 .attribution { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    color: #fff;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-
-
-/* font-family: 'Kumbh Sans', sans-serif; */
